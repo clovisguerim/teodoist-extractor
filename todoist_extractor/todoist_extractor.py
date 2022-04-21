@@ -30,7 +30,3 @@ class TodoistExtractor:
                     return item['item']['parent_id']
             except AttributeError:
                 return None
-
-
-if __name__ == "__main__":
-    te = TodoistExtractor()
