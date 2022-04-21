@@ -4,3 +4,4 @@ pandas
 todoist-python
 python-dotenv
 click
+schedule
