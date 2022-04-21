@@ -17,8 +17,8 @@ def get_min_diff_date_from_today(list_of_dates):
 
 def run(update=True):
 
-    credentials = dotenv_values('../.env')
-    path_data = "../data/"
+    credentials = dotenv_values('/home/clovis/Documentos/todoist-extractor/usage/.env')
+    path_data = "/home/clovis/Documentos/todoist-extractor/usage/data/"
     glob_search = f"{path_data}*.csv"
 
     te = todex.TodoistExtractor(
